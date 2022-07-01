@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+	<title>Dudaman Business</title>
+	<style type="text/css">
+		.container{
+			display: flex;
+			width: 80%;
+			margin: 10px auto;
+			flex-direction: column;
+			text-align: center;
+			box-sizing: border-box;	
+		}
+		.header{
+			text-align: center;
+			height: 10vh;
+			background-color: #776f6f;
+			font-family: 'Zen Dots', cursive;
+			color: 	rgb(0, 0, 0);
+		}
+		.centered{
+			
+			display: flex;
+			height: 500px;
+		}
+		.left{
+			text-align: center;
+			width:15%;
+			background-color: #ff0000;
+			justify-content: center;
+			align-items: center;
+		}
+		.mid{
+			width: 60%;
+			background-color: #e179be;
+			font-size: 24px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.right{
+			width: 25%;
+			background-color: #02ff4e;
+			justify-content: center;
+		}
+		.foot{
+			height: 12vh;
+			background-color: #000000;
+		}
+		.inner__foot {
+			border: 2px solid #ffffff;
+			margin: 10px;	
+			padding: 10px;	
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1><b><i>Dudaman Business</i></b></h1>
+	</header>
+	<main>
+		<h2>Let me tell ya dis pussyclad</h2>
+		<div class="container">
+			<div class="header">
+				<h2>LINKS</h2>
+			</div>
+			<div class="centered">
+				<div class="left">
+					<a href="https://www.facebook.com/Dudaman69"><b><mark>facebook</mark></b></a>
+				</div>
+				<div class="mid">
+					<iframe width="700" height="480" src="https://www.youtube.com/embed/Bhqblxldav8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="right">
+					<a href="https://www.mixcloud.com/Dudaman/"><b><mark>mixcloud</mark></b></a>
+				</div>
+			</div>
+			<div class="foot">
+				<h3 class="inner__foot"><a href="https://soundcloud.com/dj-dudaman"><mark><b>soundcloud</b></mark></a> </h3>
+			</div>
+		</div>
+
+
+	</main>
+	<footer class="">
+		<p>Made by &#64;ME</p>
+	</footer>
+</body>
+</html>
